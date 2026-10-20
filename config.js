@@ -3,15 +3,15 @@
 // ------------------------------------------------------------------
 const CONFIG = {
   // Page title and the text below it
-  title: "My DH bibliography",
+  title: "Eliots DH bibliography",
   intro: "An annotated bibliography on … Built from my Zotero library via the Zotero API.",
 
   // Which library?
   //   group library:  libraryType "groups", libraryId = number in zotero.org/groups/<number>/…
   //   own library:    libraryType "users",  libraryId = your userID (zotero.org/settings/keys)
   //                   – your library must be public: zotero.org/settings/privacy → «Publish Entire Library»
-  libraryType: "groups",
-  libraryId: "2386895",          // dh_unibe (open group of DH Bern)
+  libraryType: "users",
+  libraryId: "21778714",          // dh_unibe (open group of DH Bern)
 
   // Where the page gets the data:
   //   "api"  – the browser asks the Zotero API on every visit (public libraries only, no key)
@@ -20,7 +20,7 @@ const CONFIG = {
   source: "api",
 
   // Optional: only one collection (the 8-character key in the collection's URL), "" = whole library
-  collectionKey: "BT3NCKZK",     // dh_unibe → lecture-introduction
+  collectionKey: "ZOTERO_API_KEY",     // dh_unibe → lecture-introduction
 
   // Citation style (any CSL style id, e.g. "apa", "chicago-author-date", "modern-language-association")
   style: "chicago-author-date",
