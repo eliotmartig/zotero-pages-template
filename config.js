@@ -20,7 +20,7 @@ const CONFIG = {
   source: "api",
 
   // Optional: only one collection (the 8-character key in the collection's URL), "" = whole library
-  collectionKey: "ZOTERO_API_KEY",     // dh_unibe → lecture-introduction
+  collectionKey: "WA27N3UN",     // dh_unibe → lecture-introduction
 
   // Citation style (any CSL style id, e.g. "apa", "chicago-author-date", "modern-language-association")
   style: "chicago-author-date",
