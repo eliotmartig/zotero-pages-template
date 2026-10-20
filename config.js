@@ -20,7 +20,7 @@ const CONFIG = {
   source: "api",
 
   // Optional: only one collection (the 8-character key in the collection's URL), "" = whole library
-  collectionKey: "WA27N3UN",     // dh_unibe → lecture-introduction
+  collectionKey: "5N3IAN6H",     // dh_unibe → lecture-introduction
 
   // Citation style (any CSL style id, e.g. "apa", "chicago-author-date", "modern-language-association")
   style: "chicago-author-date",
